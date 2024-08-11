@@ -5,7 +5,7 @@ import {
   OrderInfoLink,
   OrderInfoSection,
   OrderInfoText,
-} from '@/components/Orders';
+} from '@/Components/Orders';
 import { mapOrderToKeyInformation } from '@/helpers';
 
 import { TOrder } from '@/types/app';

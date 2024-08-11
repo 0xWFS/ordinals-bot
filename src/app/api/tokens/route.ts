@@ -11,7 +11,7 @@ export async function GET(request: Request) {
           `https://api.ordinalsbot.com/opi/v1/brc20/ticker_info?ticker=${ticker}`,
           {
             headers: {
-              'x-api-key': process.env.NEXT_PUBLIC_ORDINALS_API, // API key
+              'x-api-key': process.env.NEXT_PUBLIC_ORDINALS_API as string, // API key
             },
           }
         );

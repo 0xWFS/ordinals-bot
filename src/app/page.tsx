@@ -1,6 +1,6 @@
 import React from 'react';
-import TokensInformation from '@/Components/General/TokensInformation';
-import RendersOrdersList from '@/Components/General/RenderOrdersList';
+import TokensInformation from '@/components/general/TokensInformation';
+import RendersOrdersList from '@/components/general/RenderOrdersList';
 
 export default async function Home() {
   return (

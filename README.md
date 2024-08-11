@@ -85,11 +85,31 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deployment to Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use Vercel. Follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Login to Vercel:
+
+If you haven't already, log in to your Vercel account.
+
+#### Connect your GitHub repository:
+
+Go to your Vercel dashboard and import the project directly from GitHub.
+Vercel will automatically detect that you are using Next.js and will configure the project accordingly.
+Deploy:
+
+Once connected, you can deploy your project by clicking "Deploy". Vercel will automatically handle the build process and deployment.
+
+Your project will be live at https://your-project-name.vercel.app or any custom domain you configure.
+
+#### Automatic Deployments:
+
+Vercel provides automatic deployments for every push to your main branch. You can also create preview deployments for other branches.
+
+For this app you will also need to set an env as a global parameter so API can be accessed. `NEXT_PUBLIC_ORDINALS_API`
+
+This app is currently deployed to https://ordinals-bot.vercel.app/
 
 
 ## Technologies Used

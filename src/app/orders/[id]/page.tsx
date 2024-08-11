@@ -1,6 +1,6 @@
-import { BackToHome } from '@/components/Navigation/BackHome';
+import { BackToHome } from '@/Components/Navigation/BackHome';
 
-import Divider from '@/components/general/Divider';
+import Divider from '@/Components/General/Divider';
 import {
   OrderInfoLink,
   OrderInfoSection,
@@ -10,7 +10,7 @@ import { mapOrderToKeyInformation } from '@/helpers';
 
 import { TOrder } from '@/types/app';
 import { Metadata } from 'next';
-import BitcoinInfo from '@/components/general/BitcoinInfo';
+import BitcoinInfo from '@/Components/General/BitcoinInfo';
 
 async function getOrder(id: string): Promise<TOrder> {
   const res = await fetch(`https://api.ordinalsbot.com/order?id=${id}`);

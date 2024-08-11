@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { Tabs } from '../tabs/Tabs';
+import { Tabs } from '../Tabs/Tabs';
 import { tokens } from '@/constants';
 
 const tickers = tokens;
